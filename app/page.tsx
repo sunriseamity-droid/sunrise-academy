@@ -166,16 +166,16 @@ export default function Home() {
               Admission Consultant &amp; Responsibility
             </span>
 
-            <h1 className="mt-7 text-4xl font-extrabold leading-tight text-white sm:text-5xl md:text-6xl">
-              Your Dream Admission Is{" "}
-              <span className="text-yellow-400">Our Responsibility.</span>
-            </h1>
-
-            <p className="mt-6 max-w-xl text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
-              We provide expert admission guidance for schools, colleges,
-              universities and educational institutions. Let us help you build
-              a successful future.
-            </p>
+           <h1 className="mt-7 text-4xl font-extrabold leading-tight text-white sm:text-5xl md:text-6xl">
+  College & University Admission Consultant{" "}
+  <span className="text-yellow-400">Sunrise Academy</span>
+</h1>
+           <p className="mt-6 max-w-xl text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
+  Sunrise Academy provides expert college and university admission
+  counselling for students seeking B.Tech, MBA, BBA, BCA, MCA, B.Com,
+  M.Com, BA (JMC) and MA (JMC) admissions. Get personalised guidance,
+  course selection and complete admission support.
+</p>
 
             <div className="mt-9 flex flex-wrap gap-4">
               <a
@@ -402,7 +402,111 @@ export default function Home() {
           </div>
         </div>
       </section>
+{/* POPULAR PROGRAMS */}
+<section id="programs" className="bg-white px-6 py-20">
+  <div className="mx-auto max-w-7xl">
+    <div className="text-center">
+      <p className="font-bold uppercase tracking-widest text-yellow-500">
+        Popular Programs
+      </p>
 
+      <h2 className="mt-3 text-4xl font-extrabold text-[#061a3a] md:text-5xl">
+        Admission Guidance for Popular Programs
+      </h2>
+
+      <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-600">
+        Get expert admission counselling and personalised guidance for
+        undergraduate and postgraduate programs.
+      </p>
+    </div>
+
+    <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+      <div className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+        <h3 className="text-2xl font-bold text-[#061a3a]">
+          B.Tech Admission
+        </h3>
+        <p className="mt-3 leading-7 text-slate-600">
+          Get guidance for B.Tech college selection, applications and
+          admission procedures.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+        <h3 className="text-2xl font-bold text-[#061a3a]">
+          MBA Admission
+        </h3>
+        <p className="mt-3 leading-7 text-slate-600">
+          Find suitable MBA programs and get personalised admission guidance.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+        <h3 className="text-2xl font-bold text-[#061a3a]">
+          BBA Admission
+        </h3>
+        <p className="mt-3 leading-7 text-slate-600">
+          Get support with BBA course selection and college admissions.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+        <h3 className="text-2xl font-bold text-[#061a3a]">
+          BCA Admission
+        </h3>
+        <p className="mt-3 leading-7 text-slate-600">
+          Get expert guidance for BCA college selection and admission.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+        <h3 className="text-2xl font-bold text-[#061a3a]">
+          MCA Admission
+        </h3>
+        <p className="mt-3 leading-7 text-slate-600">
+          Explore MCA admission options with personalised counselling.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+        <h3 className="text-2xl font-bold text-[#061a3a]">
+          B.Com Admission
+        </h3>
+        <p className="mt-3 leading-7 text-slate-600">
+          Get assistance with B.Com course and college admission decisions.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+        <h3 className="text-2xl font-bold text-[#061a3a]">
+          M.Com Admission
+        </h3>
+        <p className="mt-3 leading-7 text-slate-600">
+          Get personalised guidance for M.Com programs and admissions.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+        <h3 className="text-2xl font-bold text-[#061a3a]">
+          BA (JMC) Admission
+        </h3>
+        <p className="mt-3 leading-7 text-slate-600">
+          Get guidance for BA Journalism and Mass Communication admissions.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+        <h3 className="text-2xl font-bold text-[#061a3a]">
+          MA (JMC) Admission
+        </h3>
+        <p className="mt-3 leading-7 text-slate-600">
+          Explore MA Journalism and Mass Communication admission options.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
       {/* TESTIMONIALS */}
       <section className="bg-slate-50 px-6 py-20">
         <div className="mx-auto max-w-7xl">
